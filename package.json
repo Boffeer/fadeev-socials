@@ -1,0 +1,17 @@
+{
+  "name": "1-Fadeev-socials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "stylus": "^0.54.7"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "aos": "^3.0.0-beta.6",
+    "micromodal": "^0.4.6",
+    "wow.js": "^1.2.2",
+    "wowjs": "^1.1.3"
+  }
+}
