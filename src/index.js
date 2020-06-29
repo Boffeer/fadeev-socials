@@ -46,7 +46,12 @@ function toggle(wrap){
     document.querySelector(".close-work").addEventListener("click", () => toggle('.work-pop'));
 
 
-    document.querySelector(".pop-to-form").addEventListener("click", () => toggle('.work-pop'));
+    // document.querySelector(".pop-to-form").addEventListener("click", () => toggle('.work-pop'));
+
+    document.querySelector(".open-prices-1").addEventListener("click", () => toggle('.prices-1'));
+    document.querySelector(".close-prices-1").addEventListener("click", () => toggle('.prices-1'));
+
+
 
 const anchors = document.querySelectorAll('a[href*="#"]')
 
@@ -62,5 +67,20 @@ for (let anchor of anchors) {
     })
   })
 }
+
+
+// $(window).on('load resize', function() {
+//   if ($(window).width() < 748) {
+//     $('.prices-table-slider:not(.slick-initialized)').slick({
+//       centerMode: true,
+//       dots: true,
+//       infinite: true,
+//       speed: 100,
+//       slidesToShow: 1
+//     });
+//   } else {
+//     $("#items.slick-initialized").slick("unslick");
+//   }
+// });
 
 
